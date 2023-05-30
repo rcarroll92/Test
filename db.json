@@ -1,341 +1,338 @@
-[
-  {
-      "roster_settings": [
-          {
-              "property": "public_site_url",
-              "new_value": "https://CUSTOMER.ait-connected.co.uk/Roster",
-              "trs_default": "https://[SERVER]/Roster/"
-          },
-          {
-              "property": "socket_ip_address",
-              "new_value": "wss://CUSTOMER.ait-connected.co.uk:8082",
-              "trs_default": "ws://127.0.0.1/"
-          },
-          {
-              "property": "iface_http_port",
-              "new_value": "84",
-              "trs_default": "82"
-          },
-          {
-              "property": "tour_contact_number",
-              "new_value": "+442088827200",
-              "trs_default": "+353871254033"
-          },
-          {
-              "property": "pwa_admin_email",
-              "new_value": "support@actintime.co.uk",
-              "trs_default": "N/a"
-          },
-          {
-              "property": "pwa_admin_phone",
-              "new_value": "+442088827200",
-              "trs_default": "N/a"
-          },
-          {
-              "property": "weather_location",
-              "new_value": "",
-              "trs_default": "Dublin"
-          },
-          {
-              "property": "weather_url",
-              "new_value": "",
-              "trs_default": "https://forecast7.com/en/53d35n6d26/dublin/"
-          },
-          {
-              "property": "adp_hide_personnel_if_last_roll_call_booking_greater_than_or_equal_to_x_hours",
-              "new_value": "20",
-              "trs_default": "0"
-          },
-          {
-              "property": "pwa_add_original_booking",
-              "new_value": "1",
-              "trs_default": "0"
-          },
-          {
-              "property": "adp_refresh_interval",
-              "new_value": "20",
-              "trs_default": "0"
-          },
-          {
-              "property": "support_url",
-              "new_value": "https://www.support.actintime.co.uk/connected.php",
-              "trs_default": ""
-          },
-          {
-              "property": "use_iface_temperature_data",
-              "new_value": "1",
-              "trs_default": "999"
-          },
-          {
-              "property": "currency",
-              "new_value": "GBP",
-              "trs_default": "EUR"
-          },
-          {
-              "property": "timezone",
-              "new_value": "Europe/London",
-              "trs_default": "Europe/Dublin"
-          },
-          {
-              "property": "back_to_top_enabled",
-              "new_value": "1",
-              "trs_default": "0"
-          },
-          {
-              "property": "remote_support_url",
-              "new_value": "https://get.teamviewer.com/e9amxst",
-              "trs_default": ""
-          },
-          {
-              "property": "logo_file",
-              "new_value": "[site-url]/admin/img/logo-actin-time.png",
-              "trs_default": "[site-url]/admin/img/logo-trs.png"
-          },
-          {
-              "property": "login_page_copyright_url",
-              "new_value": "https://www.actintime.co.uk",
-              "trs_default": ""
-          },
-          {
-              "property": "geo_fence_default_coordinates",
-              "new_value": "51.798723, -0.080695",
-              "trs_default": "53.3498, -6.2603"
-          },
-          {
-              "property": "system",
-              "new_value": "ActIn Time Connected",
-              "trs_default": "TRS Pro"
-          },
-          {
-              "property": "system_short",
-              "new_value": "AITC",
-              "trs_default": "TRS"
-          },
-          {
-              "property": "pwa_app_name",
-              "new_value": "ActIn Time Connected PWA",
-              "trs_default": "TRS Live"
-          },
-          {
-              "property": "pwa_app_short_name",
-              "new_value": "AIT",
-              "trs_default": "TRS"
-          },
-          {
-              "property": "data_table_page_length_roster_settings",
-              "new_value": "100",
-              "trs_default": null
-          },
-          {
-              "property": "data_table_page_length_roster_section",
-              "new_value": "100",
-              "trs_default": null
-          },
-          {
-              "property": "data_table_page_length_roster_user",
-              "new_value": "50",
-              "trs_default": null
-          },
-          {
-              "property": "data_table_page_length_personnel",
-              "new_value": "50",
-              "trs_default": null
-          },
-          {
-              "property": "data_table_page_length_terminal_status",
-              "new_value": "50",
-              "trs_default": null
-          },
-          {
-              "property": "interval_calculation_agent",
-              "new_value": "120",
-              "trs_default": "60"
-          },
-          {
-              "property": "interval_event_handler",
-              "new_value": "30",
-              "trs_default": "10"
-          },
-          {
-              "property": "interval_process_unprocessed_calculation_seconds",
-              "new_value": "60",
-              "trs_default": "1"
-          },
-          {
-              "property": "interval_roll_call_calculation_seconds",
-              "new_value": "0",
-              "trs_default": "300"
-          },
-          {
-              "property": "temperature_summary_table_page_length",
-              "new_value": "25",
-              "trs_default": "10"
-          },
-          {
-              "property": "temperature_last_table_page_length",
-              "new_value": "25",
-              "trs_default": "10"
-          },
-          {
-              "property": "temperature_contact_tracing_table_page_length",
-              "new_value": "25",
-              "trs_default": "10"
-          },
-          {
-              "property": "attendance_adjustments_calendar_column_width",
-              "new_value": "2",
-              "trs_default": "3"
-          },
-          {
-              "property": "telephone_input_preferred_countries",
-              "new_value": "gb",
-              "trs_default": "ie, gb"
-          },
-          {
-              "property": "sort_order_field",
-              "new_value": "temployee.last_name",
-              "trs_default": "temployee.employee_id"
-          },
-          {
-              "property": "header_show_fire_trigger",
-              "new_value": "1",
-              "trs_default": "0"
-          },
-          {
-              "property": "default_fire_password",
-              "new_value": "Act1nt1m3",
-              "trs_default": "password"
-          },
-          {
-              "property": "onaftercalculation",
-              "new_value": "onAfterCalculation Update Roll Call",
-              "trs_default": ""
-          },
-          {
-              "property": "adp_auto_paginate",
-              "new_value": "1",
-              "trs_default": "0"
-          },
-          {
-              "property": "attendance_adjustments_hide_total_cost",
-              "new_value": "1",
-              "trs_default": "0"
-          },
-          {
-              "property": "pwa_muster_surname_characters",
-              "new_value": "25",
-              "trs_default": "1"
-          },
-          {
-              "property": "onClientShowCrudForm",
-              "new_value": "onClientShowCrudForm Update Known As",
-              "trs_default": "onClientShowCrudForm Standard"
-          },
-          {
-              "property": "reload_employee_when_saved",
-              "new_value": "1",
-              "trs_default": "0"
-          },
-          {
-              "property": "fixed_columns_left",
-              "new_value": "2",
-              "trs_default": "0"
-          },
-          {
-              "property": "onafterupdateabsence",
-              "new_value": "onAfterUpdateAbsence Email Managers and Employee",
-              "trs_default": ""
-          },
-          {
-              "property": "onservershowabsenceform",
-              "new_value": "onServerShowAbsenceForm Standard",
-              "trs_default": ""
-          },
-          {
-              "property": "onclientshowabsenceform",
-              "new_value": "onClientShowAbsenceForm Set Entitlement Deduction",
-              "trs_default": ""
-          },
-          {
-              "property": "onbeforecalculation",
-              "new_value": "onBeforeCalculation Remove Duplicate Clockings",
-              "trs_default": ""
-          },
-          {
-              "property": "enable_override_daily_schedule",
-              "new_value": "1",
-              "trs_default": "0"
-          },
-          {
-              "property": "onafterblockactionabsence",
-              "new_value": "onAfterBlockActionAbsence Entitlement Check",
-              "trs_default": "0"
-          },
-          {
-              "property": "set_and_disable_contribute_roster_checkbox",
-              "new_value": "0",
-              "trs_default": "-1"
-          },
-          {
-              "property": "allow_edit_hardware_configurations",
-              "new_value": "1,2,5,10,15,30,31",
-              "trs_default": "2,5,10,15,30"
-          },
-          {
-              "property": "pwa_show_absence_authorisation",
-              "new_value": "3",
-              "trs_default": "0,1,2,3"
-          },
-          {
-              "property": "pwa_show_absence_authorisation_finalisation",
-              "new_value": "1",
-              "trs_default": "0,1"
-          },
-          {
-            "property": "ical_enabled",
-            "new_value": "0",
-            "trs_default": "1"
-          },
-          {
-            "property": "pwa_ical_enabled",
-            "new_value": "0",
-            "trs_default": "1"
-          },
-          {
-            "property": "iface_https_port",
-            "new_value": "-1",
-            "trs_default": "83"
-          },
-          {
-            "property": "user_hide_client_settings",
-            "new_value": "1",
-            "trs_default": "0"
-          },
-          {
-              "property": "pwa_not_default_terminal_warning_message",
-              "new_value": "Try selecting a different terminal",
-              "trs_default": "You are not using your default terminal"
-          },
-          {
-            "property": "Absence_Block_Booking_Allow_Select_Everyone_Users",
-            "new_value": "Admin,Administrator",
-            "trs_default": "Admin"
-          },
-          {
-            "property": "Hide_Unnamed_Absence_Categories",
-            "new_value": "1",
-            "trs_default": "0"
-          },
-          {
-            "property": "onemergency",
-            "new_value": "onEmergency Fire",
-            "trs_default": ""
-          }             
-      ],
-      "system_properties": [
-          {
-              "test": "null"
-          }
-      ]
+{
+  "roster_settings": [
+    {
+      "property": "public_site_url",
+      "new_value": "https://CUSTOMER.ait-connected.co.uk/Roster",
+      "trs_default": "https://[SERVER]/Roster/"
+    },
+    {
+      "property": "socket_ip_address",
+      "new_value": "wss://CUSTOMER.ait-connected.co.uk:8082",
+      "trs_default": "ws://127.0.0.1/"
+    },
+    {
+      "property": "iface_http_port",
+      "new_value": "84",
+      "trs_default": "82"
+    },
+    {
+      "property": "tour_contact_number",
+      "new_value": "+442088827200",
+      "trs_default": "+353871254033"
+    },
+    {
+      "property": "pwa_admin_email",
+      "new_value": "support@actintime.co.uk",
+      "trs_default": "N/a"
+    },
+    {
+      "property": "pwa_admin_phone",
+      "new_value": "+442088827200",
+      "trs_default": "N/a"
+    },
+    {
+      "property": "weather_location",
+      "new_value": "",
+      "trs_default": "Dublin"
+    },
+    {
+      "property": "weather_url",
+      "new_value": "",
+      "trs_default": "https://forecast7.com/en/53d35n6d26/dublin/"
+    },
+    {
+      "property": "adp_hide_personnel_if_last_roll_call_booking_greater_than_or_equal_to_x_hours",
+      "new_value": "20",
+      "trs_default": "0"
+    },
+    {
+      "property": "pwa_add_original_booking",
+      "new_value": "1",
+      "trs_default": "0"
+    },
+    {
+      "property": "adp_refresh_interval",
+      "new_value": "20",
+      "trs_default": "0"
+    },
+    {
+      "property": "support_url",
+      "new_value": "https://www.support.actintime.co.uk/connected.php",
+      "trs_default": ""
+    },
+    {
+      "property": "use_iface_temperature_data",
+      "new_value": "1",
+      "trs_default": "999"
+    },
+    {
+      "property": "currency",
+      "new_value": "GBP",
+      "trs_default": "EUR"
+    },
+    {
+      "property": "timezone",
+      "new_value": "Europe/London",
+      "trs_default": "Europe/Dublin"
+    },
+    {
+      "property": "back_to_top_enabled",
+      "new_value": "1",
+      "trs_default": "0"
+    },
+    {
+      "property": "remote_support_url",
+      "new_value": "https://get.teamviewer.com/e9amxst",
+      "trs_default": ""
+    },
+    {
+      "property": "logo_file",
+      "new_value": "[site-url]/admin/img/logo-actin-time.png",
+      "trs_default": "[site-url]/admin/img/logo-trs.png"
+    },
+    {
+      "property": "login_page_copyright_url",
+      "new_value": "https://www.actintime.co.uk",
+      "trs_default": ""
+    },
+    {
+      "property": "geo_fence_default_coordinates",
+      "new_value": "51.798723, -0.080695",
+      "trs_default": "53.3498, -6.2603"
+    },
+    {
+      "property": "system",
+      "new_value": "ActIn Time Connected",
+      "trs_default": "TRS Pro"
+    },
+    {
+      "property": "system_short",
+      "new_value": "AITC",
+      "trs_default": "TRS"
+    },
+    {
+      "property": "pwa_app_name",
+      "new_value": "ActIn Time Connected PWA",
+      "trs_default": "TRS Live"
+    },
+    {
+      "property": "pwa_app_short_name",
+      "new_value": "AIT",
+      "trs_default": "TRS"
+    },
+    {
+      "property": "data_table_page_length_roster_settings",
+      "new_value": "100",
+      "trs_default": null
+    },
+    {
+      "property": "data_table_page_length_roster_section",
+      "new_value": "100",
+      "trs_default": null
+    },
+    {
+      "property": "data_table_page_length_roster_user",
+      "new_value": "50",
+      "trs_default": null
+    },
+    {
+      "property": "data_table_page_length_personnel",
+      "new_value": "50",
+      "trs_default": null
+    },
+    {
+      "property": "data_table_page_length_terminal_status",
+      "new_value": "50",
+      "trs_default": null
+    },
+    {
+      "property": "interval_calculation_agent",
+      "new_value": "120",
+      "trs_default": "60"
+    },
+    {
+      "property": "interval_event_handler",
+      "new_value": "30",
+      "trs_default": "10"
+    },
+    {
+      "property": "interval_process_unprocessed_calculation_seconds",
+      "new_value": "60",
+      "trs_default": "1"
+    },
+    {
+      "property": "interval_roll_call_calculation_seconds",
+      "new_value": "0",
+      "trs_default": "300"
+    },
+    {
+      "property": "temperature_summary_table_page_length",
+      "new_value": "25",
+      "trs_default": "10"
+    },
+    {
+      "property": "temperature_last_table_page_length",
+      "new_value": "25",
+      "trs_default": "10"
+    },
+    {
+      "property": "temperature_contact_tracing_table_page_length",
+      "new_value": "25",
+      "trs_default": "10"
+    },
+    {
+      "property": "attendance_adjustments_calendar_column_width",
+      "new_value": "2",
+      "trs_default": "3"
+    },
+    {
+      "property": "telephone_input_preferred_countries",
+      "new_value": "gb",
+      "trs_default": "ie, gb"
+    },
+    {
+      "property": "sort_order_field",
+      "new_value": "temployee.last_name",
+      "trs_default": "temployee.employee_id"
+    },
+    {
+      "property": "header_show_fire_trigger",
+      "new_value": "1",
+      "trs_default": "0"
+    },
+    {
+      "property": "default_fire_password",
+      "new_value": "Act1nt1m3",
+      "trs_default": "password"
+    },
+    {
+      "property": "onaftercalculation",
+      "new_value": "onAfterCalculation Update Roll Call",
+      "trs_default": ""
+    },
+    {
+      "property": "adp_auto_paginate",
+      "new_value": "1",
+      "trs_default": "0"
+    },
+    {
+      "property": "attendance_adjustments_hide_total_cost",
+      "new_value": "1",
+      "trs_default": "0"
+    },
+    {
+      "property": "pwa_muster_surname_characters",
+      "new_value": "25",
+      "trs_default": "1"
+    },
+    {
+      "property": "onClientShowCrudForm",
+      "new_value": "onClientShowCrudForm Update Known As",
+      "trs_default": "onClientShowCrudForm Standard"
+    },
+    {
+      "property": "reload_employee_when_saved",
+      "new_value": "1",
+      "trs_default": "0"
+    },
+    {
+      "property": "fixed_columns_left",
+      "new_value": "2",
+      "trs_default": "0"
+    },
+    {
+      "property": "onafterupdateabsence",
+      "new_value": "onAfterUpdateAbsence Email Managers and Employee",
+      "trs_default": ""
+    },
+    {
+      "property": "onservershowabsenceform",
+      "new_value": "onServerShowAbsenceForm Standard",
+      "trs_default": ""
+    },
+    {
+      "property": "onclientshowabsenceform",
+      "new_value": "onClientShowAbsenceForm Set Entitlement Deduction",
+      "trs_default": ""
+    },
+    {
+      "property": "onbeforecalculation",
+      "new_value": "onBeforeCalculation Remove Duplicate Clockings",
+      "trs_default": ""
+    },
+    {
+      "property": "enable_override_daily_schedule",
+      "new_value": "1",
+      "trs_default": "0"
+    },
+    {
+      "property": "onafterblockactionabsence",
+      "new_value": "onAfterBlockActionAbsence Entitlement Check",
+      "trs_default": "0"
+    },
+    {
+      "property": "set_and_disable_contribute_roster_checkbox",
+      "new_value": "0",
+      "trs_default": "-1"
+    },
+    {
+      "property": "allow_edit_hardware_configurations",
+      "new_value": "1,2,5,10,15,30,31",
+      "trs_default": "2,5,10,15,30"
+    },
+    {
+      "property": "pwa_show_absence_authorisation",
+      "new_value": "3",
+      "trs_default": "0,1,2,3"
+    },
+    {
+      "property": "pwa_show_absence_authorisation_finalisation",
+      "new_value": "1",
+      "trs_default": "0,1"
+    },
+    {
+      "property": "ical_enabled",
+      "new_value": "0",
+      "trs_default": "1"
+    },
+    {
+      "property": "pwa_ical_enabled",
+      "new_value": "0",
+      "trs_default": "1"
+    },
+    {
+      "property": "iface_https_port",
+      "new_value": "-1",
+      "trs_default": "83"
+    },
+    {
+      "property": "user_hide_client_settings",
+      "new_value": "1",
+      "trs_default": "0"
+    },
+    {
+      "property": "pwa_not_default_terminal_warning_message",
+      "new_value": "Try selecting a different terminal",
+      "trs_default": "You are not using your default terminal"
+    },
+    {
+      "property": "Absence_Block_Booking_Allow_Select_Everyone_Users",
+      "new_value": "Admin,Administrator",
+      "trs_default": "Admin"
+    },
+    {
+      "property": "Hide_Unnamed_Absence_Categories",
+      "new_value": "1",
+      "trs_default": "0"
+    },
+    {
+      "property": "onemergency",
+      "new_value": "onEmergency Fire",
+      "trs_default": ""
+    },
+    "system_properties": [
+      {
+        "test": "null"
+      }
+    ]
   }
-]
