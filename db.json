@@ -139,67 +139,7 @@
               "property": "data_table_page_length_personnel",
               "new_value": "50",
               "trs_default": null
-          },
-          {
-              "property": "data_table_page_length_terminal_status",
-              "new_value": "50",
-              "trs_default": null
-          },
-          {
-              "property": "interval_calculation_agent",
-              "new_value": "120",
-              "trs_default": "60"
-          },
-          {
-              "property": "interval_event_handler",
-              "new_value": "30",
-              "trs_default": "10"
-          },
-          {
-              "property": "interval_process_unprocessed_calculation_seconds",
-              "new_value": "60",
-              "trs_default": "1"
-          },
-          {
-              "property": "interval_roll_call_calculation_seconds",
-              "new_value": "0",
-              "trs_default": "300"
-          },
-          {
-              "property": "temperature_summary_table_page_length",
-              "new_value": "25",
-              "trs_default": "10"
-          },
-          {
-              "property": "temperature_last_table_page_length",
-              "new_value": "25",
-              "trs_default": "10"
-          },
-          {
-              "property": "temperature_contact_tracing_table_page_length",
-              "new_value": "25",
-              "trs_default": "10"
-          },
-          {
-              "property": "attendance_adjustments_calendar_column_width",
-              "new_value": "2",
-              "trs_default": "3"
-          },
-          {
-              "property": "telephone_input_preferred_countries",
-              "new_value": "gb",
-              "trs_default": "ie, gb"
-          },
-          {
-              "property": "sort_order_field",
-              "new_value": "temployee.last_name",
-              "trs_default": "temployee.employee_id"
-          },
-          {
-              "property": "header_show_fire_trigger",
-              "new_value": "1",
-              "trs_default": "0"
-          }      
+          }  
       ],
       "system_properties": [
           {
